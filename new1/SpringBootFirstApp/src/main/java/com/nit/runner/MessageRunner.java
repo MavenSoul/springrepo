@@ -7,7 +7,7 @@ public class MessageRunner implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("4.Message runner java based Configuration");
+		System.out.println("4.Message runner---->java based Configuration");
 	}
 
 }

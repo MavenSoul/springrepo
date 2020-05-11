@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
 public class JdbcTestRunner implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
-			System.out.println("3.JDBC Test Runner---");
+			System.out.println("3.JDBC Test Runner--@component");
 	}
 }

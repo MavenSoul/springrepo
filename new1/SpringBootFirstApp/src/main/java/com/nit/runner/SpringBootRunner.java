@@ -12,7 +12,7 @@ public class SpringBootRunner implements CommandLineRunner,Ordered {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		System.out.println("2.Welcome-Command-Line-Runner-->");
+		System.out.println("2.Welcome-Command-Line-Runner-->ordered+@component");
 
 	}
 

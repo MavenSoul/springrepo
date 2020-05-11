@@ -1,0 +1,10 @@
+my:
+  app:
+      id: 10
+      name-info: NITAPP 
+      code : "1111"
+      version : 2.0
+      versions:
+         M1: 9.9
+         M2: 5.5
+         M3: 2.5

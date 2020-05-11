@@ -7,7 +7,7 @@ public class SimpleClass {
 
 	public void code()
 	{
-		System.out.println("Simple class code");
+		System.out.println("7.Simple class code");
 	}
 
 }

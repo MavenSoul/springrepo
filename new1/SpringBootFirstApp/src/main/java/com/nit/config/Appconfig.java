@@ -1,8 +1,10 @@
 package com.nit.config;
 
 import org.springframework.boot.CommandLineRunner;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 import com.nit.runner.MessageRunner;
 
@@ -12,7 +14,7 @@ public class Appconfig {
 	@Bean
 	public CommandLineRunner mobj()
 	{
-		return new MessageRunner();
+		return (CommandLineRunner) new MessageRunner();
 		
 	}
 	
@@ -30,5 +32,8 @@ public class Appconfig {
 	System.out.println("6.Returning Lambda Expression Class -Runner");
 	};
 	}
+
 	
+    CommandLineRunner cob = args ->System.out.println("8.WELCOME TO RUNNER-NEW USING LAMBDA!!");
+            
 }
